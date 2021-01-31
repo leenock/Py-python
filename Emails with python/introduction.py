@@ -16,7 +16,7 @@ email = getpass.getpass("Email:")
 password = getpass.getpass("Password: ")
 print(smtp_object.login(email,password))
 
-recepient = 'djamburidennis@hotmail.com '
+recepient = 'example@mail.com '
 from_address = email
 to_address =  recepient
 subject = input("Enter the subject line:")
